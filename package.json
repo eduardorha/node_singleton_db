@@ -1,0 +1,29 @@
+{
+  "name": "node_singleton_db",
+  "version": "1.0.0",
+  "description": "Use singleton pattern with MongoDB native driver on Node JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hormigasgit/node_singleton_db.git"
+  },
+  "keywords": [
+    "singleton",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Eduardo Hernandez Arenas <eduardorha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hormigasgit/node_singleton_db/issues"
+  },
+  "homepage": "https://github.com/hormigasgit/node_singleton_db",
+  "dependencies": {
+    "mongodb": "^2.0.52",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  }
+}
