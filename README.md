@@ -8,7 +8,7 @@ This repo use [MongoDB Native Driver] (https://mongodb.github.io/node-mongodb-na
 
 ## Usage
 
-1. Clone the repo: `git clone git@github.com:hormigasgit/node_singleton_db.git`
+1. Clone the repo: `git clone git@bitbucket.org:eduardorha/nodejs_singleton_mongodb.g`
 2. Install dependencies: `npm install`
 3. Change config options to connect with you MongoDB database in `adapters/mongo.js`
 5. Start the server: `node app.js`
