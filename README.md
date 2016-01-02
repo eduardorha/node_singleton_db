@@ -13,4 +13,20 @@ This repo use [MongoDB Native Driver] (https://mongodb.github.io/node-mongodb-na
 3. Change config options to connect with you MongoDB database in `adapters/mongo.js`
 5. Start the server: `node app.js`
 
+Once everything is set up, we need create a documents on MongoDB test collection.
 
+### Insert documents on test collection 
+
+Send a `GET`request to `http://localhost:3000/load_data` 
+
+ ### Find all documents on test collection
+ 
+ Send a `GET`request to `http://localhost:3000/find_all`
+ 
+### Update one document (a:10) on test collection
+ 
+ Send a `GET`request to `http://localhost:3000/update_one`
+ 
+### Remove one document (a:1) on test collection
+ 
+ Send a `GET`request to `http://localhost:3000/remove_one`
