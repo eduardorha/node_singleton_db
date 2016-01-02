@@ -19,14 +19,14 @@ Once everything is set up, we need create a documents on MongoDB test collection
 
 Send a `GET`request to `http://localhost:3000/load_data` 
 
- ### Find all documents on test collection
+### Find all documents on test collection
  
- Send a `GET`request to `http://localhost:3000/find_all`
+Send a `GET`request to `http://localhost:3000/find_all`
  
 ### Update one document (a:10) on test collection
  
- Send a `GET`request to `http://localhost:3000/update_one`
+Send a `GET`request to `http://localhost:3000/update_one`
  
 ### Remove one document (a:1) on test collection
  
- Send a `GET`request to `http://localhost:3000/remove_one`
+Send a `GET`request to `http://localhost:3000/remove_one`
