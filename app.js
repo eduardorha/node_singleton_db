@@ -5,9 +5,13 @@ var bodyParser  = require('body-parser');
 // Import model
 var test = require('./models/test');
 
+app.get( "/", function( req, res ){
+    res.send( 'Test singleton MongoDB' );
+});
+
 app.get( "/load_data", function( req, res ){
     for (var i = 0; i < 20; i++) {
-        test.insert({a: i}, function(result){
+        test.insertOne({a: i}, function(result){
             console.log("Document: " + result + " inserted!");
         });
     }
@@ -26,13 +30,13 @@ app.get("/find_all",function( req, res ){
 
 app.get("/remove_one",function( req, res ){
     test.removeOne({ a: 1 }, function( result ){
-         console.log( "Document removed: " + result );
+         console.log( "Document a:1 removed: " + result );
     });
     res.send( 'Remove one document' );
 });
 
 app.get("/update_one",function( req, res ){
-    test.removeOne({ b: 2 }, { a: 1 }, function( result ){
+    test.updateOne({ b: 2 }, { a: 10 }, function( result ){
          console.log( "Document updated: " + result );
     });
     res.send( 'Update one document' );

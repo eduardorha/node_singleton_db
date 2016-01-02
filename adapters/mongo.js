@@ -1,9 +1,9 @@
 var MongoClient = require('mongodb').MongoClient;
 var connection = null;
-// config
+// config connection 
 var dbMongo = process.env.MONGODB || 'test_singleton';
 var dbPort = process.env.MONGOPORT || '27017';
-var dbHostname = process.env.MONGOPORT || 'localhost';
+var dbHostname = process.env.MONGOPORT || '192.168.10.10';
 var mdbUrl = process.env.MONGOURL || 'mongodb://' + dbHostname + ':' + dbPort + '/' + dbMongo;
 // Export connection object
 module.exports = {
