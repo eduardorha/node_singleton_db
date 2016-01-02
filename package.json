@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hormigasgit/node_singleton_db.git"
+    "url": "https://github.com/eduardorha/node_singleton_db.git"
   },
   "keywords": [
     "singleton",
@@ -18,9 +18,9 @@
   "author": "Eduardo Hernandez Arenas <eduardorha@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hormigasgit/node_singleton_db/issues"
+    "url": "https://github.com/eduardorha/node_singleton_db/issues"
   },
-  "homepage": "https://github.com/hormigasgit/node_singleton_db",
+  "homepage": "https://github.com/eduardorha/node_singleton_db",
   "dependencies": {
     "mongodb": "^2.0.52",
     "body-parser": "^1.14.2",
